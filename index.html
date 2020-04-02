@@ -32,7 +32,14 @@
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <h1 class="brand-heading">4LK0</h1>
-                        <p class="intro-text">Pelaamista, paskanjauhantaa ja menestystä, jo vuodesta 2015<br></p><a class="btn btn-link btn-circle" role="button" href="#about"><i class="fa fa-angle-double-down animated"></i></a></div>
+                        <p class="intro-text">Pelaamista, paskanjauhantaa ja menestystä, jo vuodesta 2015<br></p><button onclick="myFunction()" class="btn btn-link btn-circle" type="button"><i class="fa fa-angle-double-down animated"></i></button>
+
+<script>
+function myFunction() {
+  var elmnt = document.getElementById("pelaajat");
+  elmnt.scrollIntoView({behavior: "smooth", block: "start"});;
+}
+</script></div>
                 </div>
             </div>
         </div>
@@ -110,6 +117,7 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="assets/js/grayscale.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
 </body>
 
 </html>
