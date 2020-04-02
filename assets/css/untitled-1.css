@@ -1,0 +1,34 @@
+.btn-primary:hover {
+  color: #212529;
+  background-color: #ffa615;
+  border-color: #ffa615;
+}
+
+.btn-default {
+  color: #ffa615;
+  border: 1px solid #ffa615;
+  background-color: transparent;
+}
+
+a {
+  transition: all .2s ease-in-out;
+  color: #ffa615;
+}
+
+a:hover {
+  color: #ab7318;
+  text-decoration: underline;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+  color: #ab7318;
+}
+
+.btn-default:focus, .btn-default:hover {
+  color: #000;
+  border: 1px solid #ffa615;
+  outline: none;
+  background-color: #ffa615;
+}
+
